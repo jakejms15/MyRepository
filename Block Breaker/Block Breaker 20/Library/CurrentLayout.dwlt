@@ -111,7 +111,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 442}
   m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
-  controlID: 6735
+  controlID: 7311
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 6757
+  controlID: 7312
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -291,15 +291,15 @@ MonoBehaviour:
   m_MaximizeOnPlay: 1
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 07000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 06000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_TargetDisplay: 0
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -400
-    m_HBaseRangeMax: 400
-    m_VBaseRangeMin: -300
-    m_VBaseRangeMax: 300
+    m_HBaseRangeMin: -512
+    m_HBaseRangeMax: 512
+    m_VBaseRangeMin: -384
+    m_VBaseRangeMax: 384
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -318,7 +318,7 @@ MonoBehaviour:
       y: 17
       width: 576
       height: 280
-    m_Scale: {x: 0.46666664, y: 0.46666667}
+    m_Scale: {x: 0.36458334, y: 0.36458334}
     m_Translation: {x: 288, y: 140}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -326,12 +326,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -617.1429
-      y: -300
-      width: 1234.2858
-      height: 600
+      x: -789.9428
+      y: -384
+      width: 1579.8856
+      height: 768
     m_MinimalGUI: 1
-  m_defaultScale: 0.46666667
+  m_defaultScale: 0.36458334
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
   m_LastWindowPixelSize: {x: 576, y: 297}
@@ -365,14 +365,14 @@ MonoBehaviour:
     width: 576
     height: 296
   m_SceneLighting: 1
-  lastFramingTime: 3801.479230847389
+  lastFramingTime: 4397.185474620287
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.14583309, y: -2.4824715, z: -10}
+    m_Target: {x: -6.502982, y: -0.8337003, z: -10}
     speed: 2
-    m_Value: {x: -0.14583309, y: -2.4824715, z: -10}
+    m_Value: {x: -6.502982, y: -0.8337003, z: -10}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -399,9 +399,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 4.4328995
+    m_Target: 23.036587
     speed: 2
-    m_Value: 4.4328995
+    m_Value: 23.036587
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -442,7 +442,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: d68effff8495ffff2699ffff8e9bffff56a2ffff8caaffff70acffffeaacffffa8beffff20bffffff0c0ffff6ec3ffff32d6ffff96f9ffffbefbffff0000000062260000042700009e270000362800000e290000642c0000
+    m_ExpandedIDs: befbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -507,14 +507,14 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: I:\4.2C\Intro To Gaming\GameRepository\Block Breaker\Block Breaker
+  m_LastProjectPath: E:\4.2C\Intro To Gaming\GameRepository\Block Breaker\Block Breaker
     20
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 8a250000
     m_LastClickedID: 9610
-    m_ExpandedIDs: 00000000fa240000aa250000ba2500008e2f0000
+    m_ExpandedIDs: 00000000fe240000a6250000b0250000c0250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -542,7 +542,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000fa240000aa250000ba2500008e2f0000
+    m_ExpandedIDs: 00000000fe240000a6250000b0250000c0250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
