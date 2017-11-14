@@ -11,7 +11,7 @@ public class PaddleScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        print(Input.mousePosition.x);
+        //print(Input.mousePosition.x);
 
         float mousePositionInUnits = ((Input.mousePosition.x / Screen.width) * 16) - 8;
 
