@@ -9,11 +9,13 @@ public class BallScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        paddle = GameObject.FindObjectOfType<PaddleScript>();
         paddleBallPosDiff = this.transform.position - paddle.transform.position;
 	}
 	
 	// Update is called once per frame
 	void Update () {
+        
         if (gameStart == false)
         {
             this.transform.position = paddle.transform.position + paddleBallPosDiff;
@@ -27,4 +29,11 @@ public class BallScript : MonoBehaviour {
 
 
 	}
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (gameStart)
+        {
+            gameObject.GetComponent<AudioSource>().Play();
+        }
+    }
 }

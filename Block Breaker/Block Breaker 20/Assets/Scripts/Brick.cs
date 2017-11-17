@@ -1,9 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+[RequireComponent(typeof(AudioSource))]
 public class Brick : MonoBehaviour {
     public int maxHits;
+    public AudioClip crack;
 
     int timesHit;
 	// Use this for initialization
@@ -23,6 +24,7 @@ public class Brick : MonoBehaviour {
 
         if (timesHit >= maxHits)
         {
+            AudioSource.PlayClipAtPoint(crack, this.transform.position);
             Destroy(gameObject);
         }
     }
