@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class LoseBorderScript : MonoBehaviour {
-    UIController levelManager = new UIController();
+    LevelManager levelManager = new LevelManager();
     // Use this for initialization
     void Start () {
 		

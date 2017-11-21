@@ -19,6 +19,7 @@ public class PaddleScript : MonoBehaviour {
 
         newPaddlePos.x = Mathf.Clamp(mousePositionInUnits, -7.5f, 7.5f);
 
-        this.transform.position = newPaddlePos;
-	}
+   
+
+    }
 }
